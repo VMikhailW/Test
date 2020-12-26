@@ -1,0 +1,32 @@
+.lead__capture {
+  margin: 8px 0 24px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-self: start;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__capture {
+      margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  .lead__capture {
+      margin-left: 16px;
+      padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .lead__capture {
+    padding-left: 12px;
+    margin-bottom: 64px;
+  }
+}
