@@ -9,6 +9,16 @@
 <body class="root">
   <header class="header">
     <img class="header__logo" src="images/logo/logo__header.svg" alt="Логотип компании">
+   
+    <nav class="nav">
+    <ul class="nav-list">
+      <li class="popup_open">
+        О проекте
+      </li>
+    </ul>
+    </nav>
+
+
     <ul class="header__lang-links">
       <li class="header__lang-item">
         <a class="header__lang-link header__lang-link_active" href="#" target="_blank" lang="ru">Ru</a>
@@ -225,6 +235,17 @@
     </nav>
     <p class="footer__author">&copy; 2020. Волокитин Михаил</p>
   </footer>
-  <script type="click" src="script/index.js"></script>
+
+  <section class="overlay">
+    <div class="popup">
+        <h2 class="title"> О проекте</h2>
+        <p class="body">День ночь - ночь день Всё распиздень.
+        </p>
+        <span class="popup_close"></span>
+    </div>
+  </section>
+ <script src="script/index.js"></script>
+
+
 </body>
 </html>
